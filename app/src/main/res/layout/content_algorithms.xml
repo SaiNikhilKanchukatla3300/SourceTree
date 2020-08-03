@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="24dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Algorithms"
+    tools:showIn="@layout/app_bar_algorithms">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:onClick="movec"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/h_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/geeksforgeeks_algo"
+            android:textAllCaps="false"
+            app:elevation="20dp" />
+
+        <Button
+            android:id="@+id/h1_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/coursera_algorithms"
+            android:textAllCaps="false"
+            app:elevation="20dp" />
+
+        <Button
+            android:id="@+id/h2_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/youtube_mit"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/h4_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/youtube_abdul_bari"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/h5_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+
+            android:onClick="movec"
+            android:text="@string/book_bible_of_algorithms"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+</ScrollView>
+

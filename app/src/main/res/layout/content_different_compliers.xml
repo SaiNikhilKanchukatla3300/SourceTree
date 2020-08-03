@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="24dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DifferentCompliers"
+    tools:showIn="@layout/app_bar_different_compliers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/h_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:text="@string/different_compliers"
+            android:textColor="#0B17F5"
+            app:elevation="20dp" />
+
+        <Button
+            android:id="@+id/h1_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:text="@string/c_c_codeblocks_turbo_c" />
+
+        <Button
+            android:id="@+id/h2_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:text="@string/java_netbeans_eclipse" />
+
+        <Button
+            android:id="@+id/h3_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:text="@string/python_python_idle_pycharm" />
+
+        <Button
+            android:id="@+id/h4_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:text="@string/very_useful_intellij_visual_studio_code_visual_studio_for_majority_of_the_languages" />
+
+        <Button
+            android:id="@+id/h5_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+
+            android:text="@string/tio_try_it_online_which_supports_400_languages" />
+
+
+    </LinearLayout>
+</ScrollView>
+

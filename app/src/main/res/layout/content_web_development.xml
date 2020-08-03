@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="24dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".WebDevelopment"
+    tools:showIn="@layout/app_bar_web_development">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:onClick="movec"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/h_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:text="@string/courses"
+            android:textColor="#0B17F5"
+            android:textAllCaps="false"
+            app:elevation="20dp" />
+
+        <Button
+            android:id="@+id/h7_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/google_developer_training"
+            android:textAllCaps="false"
+            app:elevation="20dp" />
+
+        <Button
+            android:id="@+id/h2_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/dev_docs"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/h3_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/mozilla_documentation"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/h9_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/freecodecamp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/h10_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/codepen"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/h1_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/w3_schools"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/h4_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/codeacademy"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/h5_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+
+            android:onClick="movec"
+            android:text="@string/odin_project"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/h8_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/javascript_libraries"
+            android:textAllCaps="false"
+            android:textColor="#0B17F5"
+            app:elevation="20dp" />
+
+        <Button
+            android:id="@+id/h6_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/animation_libraries"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/h12_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/free_templates"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/h13_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="movec"
+            android:text="@string/react_js"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.sourcetree">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sourcetreeicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/sourcetreeicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".DataScience"
+            android:label="@string/title_activity_data_science"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WebDevelopment"
+            android:label="@string/title_activity_web_development"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AndroidDevelopment"
+            android:label="@string/title_activity_android_development"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Algorithms"
+            android:label="@string/title_activity_algorithms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DataStructures"
+            android:label="@string/title_activity_data_structures"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Python"
+            android:label="@string/title_activity_python"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Java"
+            android:label="@string/title_activity_java"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cplusplus"
+            android:label="@string/title_activity_cplusplus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".C"
+            android:label="@string/title_activity_c"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DifferentCompliers"
+            android:label="@string/title_activity_different_compliers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OtherUsefulSites"
+            android:label="@string/title_activity_other_useful_sites"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Placements"
+            android:label="@string/title_activity_placements"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GREandGATE"
+            android:label="@string/title_activity_greand_gate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllCourses"
+            android:label="@string/title_activity_all_courses"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StartCoding"
+            android:label="@string/title_activity_start_coding"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LearnProgramming"
+            android:label="@string/title_activity_learn_programming"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

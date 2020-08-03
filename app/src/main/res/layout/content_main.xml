@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_row="1"
+    android:layout_weight="1"
+    android:columnCount="3"
+    android:rowCount="3"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main" tools:targetApi="ice_cream_sandwich">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="151dp"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="12dp"
+        android:layout_row="0"
+        android:layout_column="0">
+
+        <LinearLayout
+            android:id="@+id/lp_l"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/lp_i"
+                android:layout_width="180dp"
+                android:layout_height="104dp"
+                android:contentDescription="@string/todo"
+                android:onClick="home_move"
+                app:srcCompat="@drawable/learnprogramming" />
+
+            <TextView
+                android:id="@+id/gh_t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/learn_programming" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="151dp"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="12dp"
+        android:layout_row="0"
+        android:layout_column="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/so_i"
+                android:layout_width="180dp"
+                android:layout_height="104dp"
+                android:contentDescription="@string/sc"
+                android:onClick="home_move"
+                app:srcCompat="@drawable/codeimg" />
+
+            <TextView
+                android:id="@+id/sc_t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/start_coding" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="151dp"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="12dp"
+        android:layout_row="2"
+        android:layout_column="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/P_i"
+                android:layout_width="180dp"
+                android:layout_height="104dp"
+                android:contentDescription="@string/todo"
+                android:onClick="home_move"
+                app:srcCompat="@drawable/placements" />
+
+            <TextView
+                android:id="@+id/P_t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/placements" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="151dp"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="12dp"
+        android:layout_row="1"
+        android:layout_column="1">
+
+        <LinearLayout
+            android:id="@+id/ad_l"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/os_i"
+                android:layout_width="180dp"
+                android:layout_height="104dp"
+                android:contentDescription="@string/todo"
+                android:onClick="home_move"
+                app:srcCompat="@drawable/usefulsites" />
+
+            <TextView
+                android:id="@+id/os_t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/useful_sites" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="151dp"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="12dp"
+        android:layout_row="1"
+        android:layout_column="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ac_i"
+                android:layout_width="180dp"
+                android:layout_height="104dp"
+                android:contentDescription="@string/todo"
+                android:onClick="home_move"
+                app:srcCompat="@drawable/allcourses" />
+
+            <TextView
+                android:id="@+id/ac_t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/all_courses" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="151dp"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="12dp"
+        android:layout_row="2"
+        android:layout_column="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gg_i"
+                android:layout_width="180dp"
+                android:layout_height="104dp"
+                android:contentDescription="@string/todo"
+                android:onClick="home_move"
+                app:srcCompat="@drawable/gategre" />
+
+            <TextView
+                android:id="@+id/gg_t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/gate_n_gre" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</GridLayout>
+
+
